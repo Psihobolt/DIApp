@@ -1,0 +1,12 @@
+﻿@model IReadOnlyCollection<aaa.DanceIntegration.Models.User>
+
+@{
+    ViewBag.Title = "DbView";
+    Layout = "_Layout";
+}
+
+<h2>Db</h2>
+@foreach (var user in Model)
+{
+    <p>@user.Id - @user.UserName</p>
+}

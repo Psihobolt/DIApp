@@ -1,0 +1,6 @@
+dotnet publish -c release
+docker build -t 'w2' .\w2\bin\Release\netcoreapp2.0\publish\
+heroku login
+heroku container:login
+docker tag 'w2' registry.heroku.com/diapp/web
+docker push registry.heroku.com/diapp/web

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aaa.DanceIntegration.Models", "aaa.DanceIntegration.Models\aaa.DanceIntegration.Models.csproj", "{F4F91FA1-55B2-4752-827D-85F785CC1D0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{FBCAE465-9103-4795-BC9C-BCA98598DE7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BEAECD77-DC4C-4951-8FDB-685A4D078D72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aaa.DanceIntegration.Repository", "aaa.DanceIntegration.Repository\aaa.DanceIntegration.Repository.csproj", "{A20BFCE7-2CF9-41FC-AAAB-A65C99161412}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CA9B4020-3127-45A5-BD26-19C44B58B90A}"
+	ProjectSection(SolutionItems) = preProject
+		dockerfile = dockerfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aaa.DanceIntegration.WebApp", "aaa.DanceIntegration.WebApp\aaa.DanceIntegration.WebApp.csproj", "{33E46F02-2D77-4F1B-A0B9-EFE4EAA860A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4F91FA1-55B2-4752-827D-85F785CC1D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F91FA1-55B2-4752-827D-85F785CC1D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F91FA1-55B2-4752-827D-85F785CC1D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F91FA1-55B2-4752-827D-85F785CC1D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A20BFCE7-2CF9-41FC-AAAB-A65C99161412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20BFCE7-2CF9-41FC-AAAB-A65C99161412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20BFCE7-2CF9-41FC-AAAB-A65C99161412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20BFCE7-2CF9-41FC-AAAB-A65C99161412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E46F02-2D77-4F1B-A0B9-EFE4EAA860A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E46F02-2D77-4F1B-A0B9-EFE4EAA860A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E46F02-2D77-4F1B-A0B9-EFE4EAA860A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E46F02-2D77-4F1B-A0B9-EFE4EAA860A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A20BFCE7-2CF9-41FC-AAAB-A65C99161412} = {FBCAE465-9103-4795-BC9C-BCA98598DE7D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A47440A-68AE-41A6-AECE-92BAC23B7339}
+	EndGlobalSection
+EndGlobal
